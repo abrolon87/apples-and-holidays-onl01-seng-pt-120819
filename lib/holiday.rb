@@ -30,7 +30,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     if holiday == "New Year's"
       holiday << "supply"
     end
-  end
+    end
     binding.pry
   end
 end
