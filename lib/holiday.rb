@@ -29,7 +29,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       holiday_hash[:winter][:christmas] << supply
     end
     if holiday == "New Year's"
-      holiday => supply
+      holiday_hash[:winter][:new_years] << supply
     end
 
 
